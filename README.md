@@ -1,10 +1,14 @@
 # Traffic Microsim
 
+[![100% AI-generated](https://img.shields.io/badge/100%25-AI--generated-8b5cf6?logo=claude&logoColor=white)](#entirely-ai-generated)
+[![Live demo](https://img.shields.io/badge/▶-live_demo-4ade80)](https://saintpepsi.github.io/traffic-microsim/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-7aa2ff)](LICENSE)
+
 A single-file traffic microsimulation you can run by double-clicking — no build, no dependencies. Watch cars with distinct personalities follow, overtake, jam, and obey (or flout) the speed limit on a vertical south→north road.
 
-**▶ Live demo: https://SaintPepsi.github.io/traffic-microsim/**
+**▶ Live demo: https://saintpepsi.github.io/traffic-microsim/**
 
-![Traffic microsim](screenshot.png)
+![Traffic microsim demo](demo.gif)
 
 ## What it does
 
@@ -40,6 +44,10 @@ It's intentionally "naive": one straight multi-lane road, no junctions, on-ramps
 git clone https://github.com/SaintPepsi/traffic-microsim.git
 open traffic-microsim/index.html      # or just double-click it
 ```
+
+## Entirely AI-generated
+
+This project — the simulation code, the UI design, this README, even the demo GIF — was built **entirely by an AI agent** (Claude, via Claude Code) through a conversation: brainstorming the IDM/MOBIL approach, implementing it test-first, then iterating on the visuals and controls. No line was hand-written by a human. The commit history is the full record.
 
 ## License
 
